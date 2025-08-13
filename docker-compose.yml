@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  corserva-app:
+    build: .
+    ports:
+      - "3000:80"
+    container_name: corserva-react-app
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
