@@ -3,17 +3,17 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-// Import all images from assets
-import image1 from '../assets/Screenshot 2025-08-07 152120.png';
-import image2 from '../assets/Screenshot 2025-08-07 152114.png';
-import image3 from '../assets/Screenshot 2025-08-07 152104.png';
-import image4 from '../assets/Screenshot 2025-08-07 152051.png';
-import image5 from '../assets/Screenshot 2025-08-07 152043.png';
-import image6 from '../assets/Screenshot 2025-08-07 152033.png';
-import image7 from '../assets/Screenshot 2025-08-07 152023.png';
-import image8 from '../assets/Screenshot 2025-08-07 152016.png';
-import image9 from '../assets/Screenshot 2025-08-07 152005.png';
-import image10 from '../assets/Screenshot 2025-08-07 151957.png';
+// Import all new images from assets
+import image2 from '../assets/Screenshot 2025-08-13 185322.png';
+import image3 from '../assets/Screenshot 2025-08-13 185310.png';
+import image4 from '../assets/Screenshot 2025-08-13 185257.png';
+import image5 from '../assets/Screenshot 2025-08-13 185248.png';
+import image6 from '../assets/Screenshot 2025-08-13 185241.png';
+import image7 from '../assets/Screenshot 2025-08-13 185233.png';
+import image8 from '../assets/Screenshot 2025-08-13 185227.png';
+import image9 from '../assets/Screenshot 2025-08-13 185217.png';
+import image10 from '../assets/Screenshot 2025-08-13 185132.png';
+import image11 from '../assets/Screenshot 2025-08-13 185123.png';
 
 const PPTCarousel = () => {
   const carouselSettings = {
@@ -37,11 +37,6 @@ const PPTCarousel = () => {
   };
 
   const slides = [
-    {
-      id: 1,
-      image: image1,
-      title: "Slide 1"
-    },
     {
       id: 2,
       image: image2,
@@ -86,6 +81,11 @@ const PPTCarousel = () => {
       id: 10,
       image: image10,
       title: "Slide 10"
+    },
+    {
+      id: 11,
+      image: image11,
+      title: "Slide 11"
     }
   ];
 
