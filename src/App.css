@@ -135,6 +135,7 @@ body {
 .slick-prev:before, .slick-next:before {
   font-size: 40px;
   opacity: 0.8;
+  color: #000; /* arrow color */
 }
 
 /* Chat Section */
