@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import PPTCarousel from './components/PPTCarousel';
 import './App.css';
-
+import Chatbot from './GetOdinChat';
 function App() {
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
           </div>
           
           <PPTCarousel />
+          <Chatbot />
         </div>
       </section>
 
